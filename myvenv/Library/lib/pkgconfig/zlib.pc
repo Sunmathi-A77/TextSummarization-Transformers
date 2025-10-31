@@ -1,0 +1,13 @@
+prefix=C:/AI-Projects/TextSummarization/myvenv/Library
+exec_prefix=C:/AI-Projects/TextSummarization/myvenv/Library
+libdir=C:/AI-Projects/TextSummarization/myvenv/Library/lib
+sharedlibdir=C:/AI-Projects/TextSummarization/myvenv/Library/lib
+includedir=C:/AI-Projects/TextSummarization/myvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
